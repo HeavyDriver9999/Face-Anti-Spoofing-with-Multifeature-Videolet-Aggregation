@@ -1,0 +1,18 @@
+import tkinter as tk
+window = tk.Tk()
+window.title("Face_Recogniser")
+window.configure(background='light gray')
+window.grid_rowconfigure(0, weight=1)
+window.grid_columnconfigure(0, weight=1)
+message = tk.Label(
+    window, text="Face-Recognition-System",
+    bg="navy blue", fg="white", width=50,
+    height=2, font=('times', 20, 'bold'))
+ 
+message.place(x=100, y=10)
+quitWindow = tk.Button(window, text="Quit",
+                       command=window.destroy, fg="white", bg="navy blue",
+                       width=10, height=1, activebackground="Red",
+                       font=('times', 15, ' bold '))
+quitWindow.place(x=1100, y=540) 
+window.mainloop()
