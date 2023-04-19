@@ -1,0 +1,5 @@
+1.Libraries or Enviroments:
+  a.open-cv2
+  b.tensorflow-keras
+  c.python 3.x.x
+2.camera module (able to capture images)
